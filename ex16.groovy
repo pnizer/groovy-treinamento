@@ -19,7 +19,7 @@ def ehMaiorDoQue20 = ehMaior(20)
 println(result[0..4])*/
 
 result = (1..100).stream()
-   .filter(ehPar)
+     .filter(ehPar)
    .filter(ehMaiorDoQue20)
    .limit(5)
    .collect()
